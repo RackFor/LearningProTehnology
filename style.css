@@ -1,0 +1,14 @@
+ul li {
+    color: green;
+}
+.CPU {
+    color: blue;
+}
+.Motherboard {
+  border-color: white red;
+  border-style: double;
+  padding: 5px;
+}
+#RAM {
+    background-color: pink;
+}
