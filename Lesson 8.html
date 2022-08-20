@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Mikhail Amelin">
+    <meta name="description" content="Простые таблицы">
+    <meta name="keywords" content="таблица, table">
+    <title>Таблицы и их стили</title>
+    <style>
+      table, td {
+          border: 1px solid blue;
+      }
+      table {
+          border-collapse: collapse;
+      }
+      td {
+          padding: 20px;
+      }
+      .testtable {
+        margin: auto;
+        text-align: center;
+        background-color: #f99999;
+        width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <table class="testtable">
+      <tr>
+        <td rowspan="2">Продукция</td>
+        <td colspan="3">Налоговая ставка</td>
+      </tr>
+      <tr>
+        <td>01.01-30.04</td>
+        <td>01.05-31.08</td>
+        <td>01.09-31.12</td>
+      </tr>
+      <tr>
+        <td>Дизельное топливо</td>
+        <td>3450 за 1 тонну</td>
+        <td>4150 за 1 тонну</td>
+        <td>3950 за 1 тонну</td>
+      </tr>
+    </table>
+  </body>
+  <footer>
+  </footer>
+</html>
