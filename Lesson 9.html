@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Mikhail Amelin">
+    <meta name="description" content="Google поиск">
+    <meta name="keywords" content="Гугл, Google, Search, Поиск">
+    <title>Поиск в поисковой системе Google</title>
+    <style>
+      #link {
+          border: 1px solid #767676;
+          background-color: #EFEFEF;
+          color: black;
+          padding: 1px;
+          font-size: 11pt;
+          text-decoration: none;
+          border-radius: 2.5px;
+      }
+    </style>
+  </head>
+<body>
+  <script>
+function update_href(id,value){
+document.getElementById(id).href='https://cse.google.com/cse?cx=b15be7350b19f4fbf#gsc.tab=0&gsc.q='+value;
+}
+</script>
+<input type="text" onchange="update_href('link', this.value );">
+<a href="https://cse.google.com/cse?cx=b15be7350b19f4fbf#gsc.tab=0&gsc.q=" id="link" border=1px border-color=red>Найти в Google</a>
+</body>
+</html>
